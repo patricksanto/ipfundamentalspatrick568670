@@ -31,19 +31,26 @@ div{
         align-items:center;
         justify-content:space-between;
         height: 10%;
+        flex-wrap: wrap;
 }
 
 a{
-        color: #0000ff;
+        padding: .5rem 1rem;
+        border-radius: 8px;
+        background-color: #618cad;
+        color: rgb(224, 239, 241);
         text-decoration: none;
-        cursor: cell;
+        cursor: pointer;
 }
 
 a:visited{
-        color: #0000ff;
+        color: #9ee4e9;
 }
 
 a:hover{
-        color: #ff0000;
+        color: white;
+        background-color: #80a7c4;
+        scale: 1.1;
         text-shadow: 1px 1px #ccc;
+        transition: all .3s;
 }
